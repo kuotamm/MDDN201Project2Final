@@ -1338,7 +1338,7 @@ mark,
   color: #777;
 }
 .text-primary {
-  color: #337ab7;
+  color: black;
 }
 a.text-primary:hover,
 a.text-primary:focus {
@@ -4553,7 +4553,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #777;
+  color: black;
 }
 .navbar-default .navbar-nav > li > a {
   color: #777;
@@ -4720,7 +4720,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   }
 }
 .navbar-inverse .navbar-link {
-  color: #9d9d9d;
+  color:black;
 }
 .navbar-inverse .navbar-link:hover {
   color: #fff;
@@ -5755,7 +5755,15 @@ button.list-group-item-danger.active:focus {
   border-color: #337ab7;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #337ab7;
+  border-top-color: 
+
+
+
+
+
+
+
+  ;
 }
 .panel-primary > .panel-heading .badge {
   color: #337ab7;

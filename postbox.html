@@ -22,9 +22,9 @@
     <div class="container-fluid mainWrapper">
       <div class="row headerBar">
         <div class="header noPadding">
-          	<header>
-	            <div class="col-sm-6 col-md-3 border header noPadding">
-	             <a href="index.html"><img src="img/logo.png" class="img-responsive logoImg"></a>
+            <header>
+              <div class="col-sm-6 col-md-3 border header noPadding">
+               <a href="index.html"><img src="img/logo.png" class="img-responsive logoImg"></a>
             </div>
             <!-- menuBar -->
             <div class="col-md-9 border noPadding hidden-sm hidden-xs">
@@ -32,23 +32,23 @@
                     <li class="hidden-sm hidden-xs col-md-1 menuLinks border"><a href="Donate.html">Donate</a></li>
                     <li class="hidden-sm hidden-xs col-md-1 menuLinks border"><a href="Postbox.html">Postbox</a></li>
                     <li class="hidden-sm hidden-xs col-md-1 menuLinks border"><a href="Buynsell.html">Buy & Sell</a></li>
-	                  <li class="userSection hidden-sm hidden-xs col-md-3 menuLinks border">
+                    <li class="userSection hidden-sm hidden-xs col-md-3 menuLinks border">
                       <img src="img/usericon.jpg" class="usericon">
                       <h2>Tammy</h2>
                     </li>
-	                </ul>
-	            </div>
-	              <!-- menubar Small Res -->
-	              <div class="col-xs-12 col-sm-6 hidden-md hidden-lg border">
-	                <div class="row menuSm"><a href="#">Donate</a></div>
-	                <div class="row menuSm"><a href="#">Postbox</a></div>
-	                <div class="row menuSm"><a href="#">Buy & Sell</a></div>
+                  </ul>
+              </div>
+                <!-- menubar Small Res -->
+                <div class="col-xs-12 col-sm-6 hidden-md hidden-lg border">
+                  <div class="row menuSm"><a href="Donate.html">Donate</a></div>
+                  <div class="row menuSm"><a href="Postbox.html">Postbox</a></div>
+                  <div class="row menuSm"><a href="Buynsell.html">Buy & Sell</a></div>
                   <div><img src="img/usericon.jpg" class="usericon"></div>
-	                <div class="row menuSm">Tammy</div>
-	                
-	              </div>
-	            <!-- menuBar ends -->
-          	</header>
+                  <div class="row menuSm">Tammy</div>
+                  
+                </div>
+              <!-- menuBar ends -->
+            </header>
         </div>
       </div>
 
@@ -56,9 +56,9 @@
 <!-- teleport section -->
 <div class="containerteleport">
   <h3> Send your parcel </h3>
-  <h4><form>Enter recipient account number:
+  </h3><form>Enter recipient account number:
   <input type="search" name="search">
-</form></h4>
+</form></h3>
 <button type="button" onclick="alert('Sending now')">Send</button>
 <h5> Item is ready to be sent </h5>
 <p>
@@ -69,7 +69,7 @@
 
 <p></p>
 <h3> Receive parcel(s)</h3>
-<h4><img src="img/katie.jpg" class="katie">Katie Kuo</h4>
+<h3><img src="img/katie.jpg" class="katie">Katie Kuo</h3>
 <button type="button" onclick="alert('Receiving now')">Receive</button>
 
 
@@ -97,29 +97,34 @@
           <h2 style="padding-left:40px;">Postbox</h2>
 
 
-		          <h4 style="padding-left:40px;"><form>Search user:
+              <h3 style="padding-left:40px;"><form>Search user:
   <input type="search" name="search">
 </form>
-<button type="button" onclick="alert('Sending now')">Search</button>
-</h4>
+<button type="button" onclick="alert('Searching now')">Search</button>
+</h3>
 
 
 
 
           <!-- gallery Section -->
             <div class="col-sm-6 col-md-6 col-lg-6">
-              <div class="listofconversations">
+              <a href="postbox.html"><div class="listofconversations">
 
-                GALLERY 1
-              </div>
-<div class="listofconversations">
+                <h3>
+                <img src="img/katie.jpg" class="katie" background-color: grey>Katie Kuo</h3>
+                <h5> Katie has one item pending</h5>
+
+              </div></a>
+<a href="postbox2.html"><div class="listofconversations">
+              <h3>
+                <img src="img/kaia.jpg" class="katie" background-color: grey>Kaia Kento</h3>
+                <h5> Kaia: Heya!</h5>
+              </div></a>
+
+             <!--  <div class="listofconversations">
                 GALLERY 2
               </div>
-
-              <div class="listofconversations">
-                GALLERY 2
-              </div>
-
+ -->
 
             </div>
               <div class="col-sm-6 col-md-6 col-lg-6">
@@ -130,22 +135,21 @@
                <!-- convo box  section -->
 <div class="col-sm-6 col-md-6 col-lg-6"> 
 <div class="row containerconvobox">
-  <h3> Send your parcel </h3>
-  <h4><form>Enter recipient account number:
-  <input type="search" name="search">
-</form></h4>
-<button type="button" onclick="alert('Sending now')">Send</button>
-<h5> Item is ready to be sent </h5>
-<p>
+<h3><img src="img/katie.jpg" class="katie">Katie Kuo</h3>
   
+<div class="convoboxcontent">
+<h5> Katie has sent you an item. </h5>
+<h5> Katie: Did you get it? </h5>
+<h5> You: Yup cheers :) </h5>
+<h5> Katie has one item pending </h5>
 
-</p>
-<p></p>
+  <h3><form>Enter message:
+  <input type="search" name="search">
+</form></h3>
 
-<p></p>
-<h3> Receive parcel(s)</h3>
-<h4><img src="img/katie.jpg" class="katie">Katie Kuo</h4>
-<button type="button" onclick="alert('Receiving now')">Receive</button>
+</div> <!--convoboxcontent-->
+
+<button type="button" >Send</button>
 
 
 
